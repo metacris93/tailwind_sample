@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <title>Travel Page</title>
+</head>
+<body class="font-Montserrat">
+  <nav></nav>
+  <div id="tab_bar"></div>
+  <section class="w-full h-auto">
+    <div id="home">
+      <div class="w-full h-3/4">
+        <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+          <input class="outline-none p-3 rounded-full shadow-sm transition duration-300 focus-within:shadow-sm focus:ring-2 focus:w-11/12" type="search" name="" id="" placeholder="Search places...">
+          <button class="w-60 bg-white text-primary font-semibold text-lg p-4 rounded-full transition transition-all duration-500 ease-in-out hover:bg-primary hover:text-white transform hover:-translate-y-1 hover:scale-110">Explore More</button>
+        </div>
+        <div class="w-full h-full">
+          <img src="./img/sanFrancisco.jpg" alt="">
+        </div>
+      </div>
+    </div>
+    <div class="p-6" id="recommended">
+      <p class="text-2xl font-semibold text-primary">Our Recomendations</p>
+      <div class="card--container">
+        <div class="card">
+          <div class="card--background bg-norway"></div>
+          <div class="card--info">
+            <p class="card--info__title">Norway</p>
+            <p class="card--info__description">Beautiful landscapes</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card--background bg-new_york"></div>
+          <div class="card--info">
+            <p class="card--info__title">New York</p>
+            <p class="card--info__description">Concrete jungle</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card--background bg-yosemite"></div>
+          <div class="card--info">
+            <p class="card--info__title">Yosemite</p>
+            <p class="card--info__description">Yosemite</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card--background bg-seattle"></div>
+          <div class="card--info">
+            <p class="card--info__title">Seattle</p>
+            <p class="card--info__description">Seattle</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="px-6 h-full w-full" id="featured_income">
+      <p class="text-3xl font-semibold text-primary pb-6">Trending Stays</p>
+      <div class="w-full h-full flex flex-col items-center justify-center">
+        <div class="w-full h-80 bg-chicago bg-cover rounded-2xl mb-8">
+          <p class="text-3xl px-8 pt-8 pb-2 font-semibold text-white">Chicago</p>
+          <p class="text-sm pl-8 text-white mr-24">2 rooms, bathroom and kitchen</p>
+        </div>
+        <div class="w-full h-80 bg-LA bg-cover rounded-2xl mb-8">
+          <p class="text-3xl px-8 pt-8 pb-2 font-semibold text-white">Los Angeles</p>
+          <p class="text-sm pl-8 text-white mr-24">4 rooms, 3 bathrooms, kitchen and private pool</p>
+        </div>
+        <div class="w-full h-80 bg-miami bg-cover rounded-2xl mb-8">
+          <p class="text-3xl px-8 pt-8 pb-2 font-semibold text-white">Miami</p>
+          <p class="text-sm pl-8 text-white mr-24">4 rooms, 3 bathrooms, kitchen and private pool</p>
+        </div>
+      </div>
+    </div>
+    <div class="w-full h-full" id="faqs">
+      <div class="w-full h-full px-6 flex flex-col space-y-4">
+        <p class="text-3xl text-primary font-semibold">FAQS</p>
+        <div>
+          <p class="text-xl font-medium text-primary dark:text-white">Política de Cancelación</p>
+          <p class="text-md pt-2 dark:text-white">Para estancias menores a una semana es importante avisar con 3 días de
+            anticipación, de caso contario será sancionado.</p>
+        </div>
+        <div>
+          <p class="text-xl font-medium text-primary dark:text-white">Métodos de pago</p>
+          <p class="text-md pt-2 dark:text-white">Aceptamos distintos métodos de pago: VISA, MasterCard, American Express,
+            Paypal y Binance </p>
+        </div>
+        <div>
+          <p class="text-xl font-medium text-primary dark:text-white">Mascotas</p>
+          <p class="text-md pt-2 dark:text-white">El tema de las mascotas dependerá directamente del anfitrión.</p>
+        </div>
+        <div>
+          <p class="text-xl font-medium text-primary dark:text-white">Información de Seguridad</p>
+          <p class="text-md pt-2 dark:text-white">Todas nuestras estancias cuentan con seguro en caso de accidentes</p>
+        </div>
+        <div>
+          <p class="text-xl font-medium text-primary dark:text-white">Estancias Largas</p>
+          <p class="text-md pt-2 dark:text-white">Contamos con estancias de hasta 3 meses, en este caso es requerido un anticipo
+            con un monto del 50% del valor de la renta</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer class="w-full h-auto bg-gray-50 p-6 space-y-2 lg:px-14" id="about_us">
+    <p class="text-lg">Acerca de</p>
+    <p class="text-sm text-gray-300">Inversionistas</p>
+    <p class="text-sm text-gray-300">Empleos</p>
+    <p class="text-sm text-gray-300">Política de Privacidad</p>
+    <p class="text-sm text-gray-300">Terminos y Condiciones</p>
+    <p class="text-sm text-gray-300">Platzi Travel,Inc</p>
+    <p class="text-sm text-gray-300">Síguenos</p>
+  </footer>
+</body>
+</html>
