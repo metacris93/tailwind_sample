@@ -13,7 +13,7 @@
   @apply w-full h-3/5 rounded-t-lg bg-cover
 }
 .card--info {
-  @apply w-full h-2/5 bg-secondary rounded-b-lg
+  @apply w-full h-2/5 bg-secondary rounded-b-lg dark:bg-gray-800
 }
 .card--info__title {
   @apply px-3 py-2 text-white font-bold text-xl
@@ -22,11 +22,11 @@
   @apply px-3 text-white text-base
 }
 .card:nth-child(even) .card--info {
-  @apply bg-white
+  @apply bg-white dark:bg-gray-700
 }
 .card:nth-child(even) .card--info__title {
-  @apply text-tertiary
+  @apply text-tertiary dark:text-white
 }
 .card:nth-child(even) .card--info__description {
-  @apply text-tertiary
+  @apply text-tertiary dark:text-white
 }

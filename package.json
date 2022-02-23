@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "watch": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/style.css --watch",
-    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/style.css",
+    "build": "npx tailwindcss -i ./src/css/tailwind.css -o ./public/css/style.css --minify",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Cristian Pisco Intriago <cristian.pisco@outlook.com>",
